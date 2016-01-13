@@ -1,9 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>History Popup</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-        .
+        <div id="showPopup" class="btn">Show popup</div>
+        <div id="logConsole"></div>
+        
+        <!-- Popup template -->
+        <script id="popupTemplate" type="text/template">
+            <div class="ctn">
+                <div id="closePopup" class="btn close">&#10060;</div>
+                <div class="clear"></div>
+                <div id="item1" class="itm">Item 1</div>
+                <div id="item2" class="itm">Item 2</div>
+                <div id="item3" class="itm">Item 3</div>
+                <div id="item4" class="itm">Item 4</div>
+            </div>
+        </script>
     </body>
+    <script src="//code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="script.js"></script>
 </html>
